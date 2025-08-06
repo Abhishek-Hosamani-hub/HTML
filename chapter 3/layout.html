@@ -4,62 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chapter 3 - Layout</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f5f5f5;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        nav {
-            background: #333;
-            padding: 10px;
-            margin-bottom: 20px;
-            border-radius: 4px;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 10px 15px;
-            margin-right: 10px;
-            border-radius: 4px;
-            transition: background 0.3s;
-        }
-
-        nav a:hover {
-            background: #555;
-        }
-
-        .active {
-            background: #007acc;
-        }
-    </style>
+    <title>new layout</title>
 </head>
 
 <body>
-    <div class="container">
-        <h1>Chapter 3 - Layout and Navigation</h1>
+    <header>
         <nav>
-            <a href="layout.html" class="active">Home</a>
-            <a href="about.html">About</a>
+            <a href="chapter_2/about.html">about</a>
+            <a href="https://facebook.com" target="_blank">facebook</a>
         </nav>
-        <main>
-            <h2>Welcome to Chapter 3</h2>
-            <p>This is the main layout page. Click on "About" in the navigation to visit the about page.</p>
-        </main>
-    </div>
+    </header>
+    <main>
+        <section>
+            <article>
+                <div>
+                    this is a div ,
+                </div>
+                <div>
+                    another div
+                </div>
+                <span>
+                    this is a span ,
+                </span>
+                <span>
+                    another span
+                </span>
+            </article>
+        </section>
+        <aside>
+
+        </aside>
+    </main>
+    <footer>
+        This is hfooter
+    </footer>
 </body>
 
 </html>
